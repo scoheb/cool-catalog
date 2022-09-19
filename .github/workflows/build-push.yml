@@ -24,7 +24,7 @@ jobs:
         id: docker_meta
         uses: docker/metadata-action@v3
         with:
-          images: grokspawn/cool-catalog
+          images: scoheb/cool-catalog
           tags: ${{ github.event.number }}
 
       - name: Build image
